@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(199, 159, 110);
+}
+h1{
+    text-align: center;
+}
+.Inicio{
+    text-align: center;
+    background-color: rgb(199, 159, 110);
+}
+
+.Produtos{
+    background-color: rgba(114, 185, 185, 0.67);
+}
+.Produtos img{
+    
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+}
+.VidAudio {
+    background-color: rgb(199, 159, 110);    
+}
+footer{
+    background-color: rgba(114, 185, 185, 0.67);
+}
