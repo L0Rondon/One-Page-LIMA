@@ -1,5 +1,6 @@
 *{
     background-color: rgb(199, 159, 110);
+    color: black;
 }
 h1{
     text-align: center;
@@ -21,6 +22,9 @@ h1{
 }
 .VidAudio {
     background-color: rgb(199, 159, 110);    
+}
+.Text{
+    background-color: rgb(199, 159, 110);
 }
 footer{
     background-color: rgba(114, 185, 185, 0.67);
