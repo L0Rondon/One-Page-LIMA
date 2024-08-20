@@ -14,7 +14,14 @@
             <li><a href="#Titulo">Home</a></li>
             <li><a href="#Produtos">Produtos</a></li>
             <li><a href="#VidAudio">Midia</a></li>
-            <li><a href="#Text">Sobre</a></li>
+            <li class="dropdown">
+                <a href="#Sobre" class="dropbtn">Sobre</a>
+                <ul class="dropdown-content">
+                    <li><a href="#Text">Informações</a></li>
+                    <li><a href="#Fim">Final</a></li>
+                </ul>
+            </li>
+
         </ul>
     </nav>
     <main>
@@ -52,7 +59,7 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Xhtft4ijpS8?si=4C1P3WQDIE6DMumc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <hr>
-        <audio controls>
+        <audio controls class="Som" id="Som">
             <source src="MusicaLoja.mp3" type="audio/mp3">
           Your browser does not support the audio element.
           </audio>
@@ -62,10 +69,18 @@
 
         <section class="Text" id="Text">
         <h2>Texto</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et animi beatae quidem, inventore consequuntur soluta quibusdam? Porro earum molestiae quas maiores reiciendis enim, beatae laudantium error odit accusantium maxime exercitationem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et animi beatae quidem, inventore consequuntur soluta quibusdam? Porro earum molestiae quas maiores reiciendis enim, beatae laudantium error odit accusantium maxime exercitationem?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam incidunt cum asperiores natus ab et doloremque. Numquam natus magnam, exercitationem necessitatibus adipisci quidem dicta ullam deserunt, vitae mollitia unde.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, cum maiores nisi expedita ullam tempore pariatur maxime aspernatur commodi, quam molestiae aliquam, in quasi totam? Mollitia molestiae perferendis suscipit. Perferendis!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi cupiditate vel, fuga harum reprehenderit nemo omnis nesciunt in error repellat sit voluptas nisi quibusdam natus dicta reiciendis animi officiis? Voluptatibus.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit doloremque est inventore consequatur cum molestias repellat tempore corporis eius facilis ducimus sit, iure exercitationem, dolorem aliquid commodi nesciunt quas illum.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quaerat maiores commodi rerum sit dolor minus nisi libero voluptates, officiis atque sequi harum fugit porro veritatis esse? Veritatis, mollitia quis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi veritatis pariatur repudiandae ab illum animi error corrupti perferendis debitis ipsa facilis quia nulla tempore aut id, nam, aspernatur magnam! Hic?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odit excepturi voluptate dicta neque molestias quia adipisci vel recusandae aliquam. Fugiat facere ullam fuga quis repellat impedit voluptate doloribus amet.
+        </p>
         </section>
     </main>
-    <footer>
+    <footer class="Fim" id="Fim">
         <hr>
         <a href="#Menu" title="Titulo"><img src="images/favicon.ico"alt="iconetopo">
             

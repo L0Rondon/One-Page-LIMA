@@ -2,7 +2,7 @@
     background-color: rgb(199, 159, 110);
     color: black;
 }
-
+/*estilo nav*/
 nav{
     background-color: rgb(134, 106, 71);
     padding: 10px 0;/*espaçamento interno*/
@@ -15,16 +15,44 @@ nav ul{
     justify-content: center;/*centraliza  (horizontal)*/
 }
 nav ul li{
+    position: relative;/*necessario para o posicionamento do dropdown*/
     margin: 0 15px;/*espaçamento entre os itens*/
 }
 nav ul li a{
     color: black;
     text-decoration: none;/*remove o sublinhado*/
     font-size: 18px;
+    padding: 10px;
+    display: block;/*torna o link clicavel em toda area*/
     transition: color 0.3s;/*transição suave para a mudança de cor*/
 }
 nav ul li a:hover{
     color: rgba(114, 185, 185, 0.67);/*Cor do texto ao passar o mouse*/
+}
+
+/*Estilo dropdown*/
+
+nav ul li .dropdown-content {
+    display: none; /* Esconde o submenu inicialmente */
+    position: absolute; /* Posiciona o submenu em relação ao item pai */
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; /* Garante que o submenu fique acima de outros elementos */
+    min-width: 160px;
+    padding: 0;
+}
+nav ul li .dropdown-content li {
+    margin: 0;
+}
+nav ul li .dropdown-content li a {
+    padding: 10px 15px;
+}
+nav ul li .dropdown-content li a:hover {
+    background-color: rgb(134, 106, 71); /* Cor de fundo ao passar o mouse sobre o submenu */
+}
+/* Exibe o submenu ao passar o mouse sobre o item principal */
+nav ul li:hover .dropdown-content {
+    display: block;
 }
 
 h1{
@@ -48,7 +76,7 @@ h1{
 .VidAudio {
     background-color: rgb(199, 159, 110);    
 }
-.Text{
+.Sobre{
     background-color: rgb(199, 159, 110);
 }
 footer{
