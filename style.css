@@ -2,6 +2,7 @@
     background-color: rgb(199, 159, 110);
     color: black;
 }
+
 /*estilo nav*/
 nav{
     background-color: rgb(134, 106, 71);
@@ -104,11 +105,49 @@ h1{
 }
 .Produtos img{
     
-    margin: 20px;
+    margin: 25px;
     width: 200px;
     height: 200px;
     border-radius: 360px;
 }
+
+/* Estilo para o contêiner principal */
+.container {
+  display: flex; /* Define o contêiner como um flexbox */
+  gap: 20px; /* Espaçamento entre os cards */
+  flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+}
+
+/* Estilo para cada card */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Arredonda os cantos dos cards */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para dar um efeito de elevação */
+  flex: 1; /* Permite que os cards cresçam igualmente */
+  max-width: 300px; /* Define uma largura máxima para os cards */
+  display: inline-block;
+}
+.card img{
+  margin: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+}
+
+/* Estilo para o título dos cards */
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color:black;
+}
+
+/* Estilo para o parágrafo dos cards */
+.card p {
+  color: black;
+}
+
 .VidAudio {
     background-color: rgb(199, 159, 110);    
 }
@@ -116,7 +155,7 @@ h1{
     background-color: rgb(199, 159, 110);
 }
 footer{
-    background-color:;
+    background-color:rgba(114, 185, 185, 0.67)
     
 }
 /* Estilo do footer */
