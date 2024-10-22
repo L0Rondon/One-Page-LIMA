@@ -1,4 +1,3 @@
-@media(max-width: 768px){
 
 *{
     background-color: rgb(199, 159, 110);
@@ -229,4 +228,3 @@ footer {
   .footer-bottom p {
     margin: 0;
   }
-}
